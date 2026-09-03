@@ -10,3 +10,10 @@ jobs:
       - name: Do the build
         run: echo Beep boop doing a build
 
+  always_skipped:
+    runs-on: ubunut-latest
+    if: false
+    steps:
+      - name: This never runs
+        run: echo Sad beep noises
+
