@@ -6,7 +6,7 @@ on:
 jobs:
   do_build:
     runs-on: ubuntu-latest
-      steps:
-        - name: Do the build
-          run: echo Beep boop doing a build
+    steps:
+      - name: Do the build
+        run: echo Beep boop doing a build
 
