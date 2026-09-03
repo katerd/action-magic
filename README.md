@@ -1,3 +1,3 @@
 # action-magic
 
-This is magical action stuff
+This is github action magic (when it's working)
