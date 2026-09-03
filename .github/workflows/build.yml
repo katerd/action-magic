@@ -11,7 +11,7 @@ jobs:
         run: echo Beep boop doing a build
 
   always_skipped:
-    runs-on: ubunut-latest
+    runs-on: ubuntu-latest
     if: false
     steps:
       - name: This never runs
